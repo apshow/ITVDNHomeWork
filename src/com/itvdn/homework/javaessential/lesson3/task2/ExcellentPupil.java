@@ -1,6 +1,7 @@
 package com.itvdn.homework.javaessential.lesson3.task2;
 
-public class ExcelentPupil extends Pupil {
+public class ExcellentPupil
+        extends Pupil {
 
     @Override
     void study() {
