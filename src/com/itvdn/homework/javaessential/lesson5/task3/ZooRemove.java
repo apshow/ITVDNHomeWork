@@ -8,7 +8,7 @@ import java.util.List;
 public class ZooRemove {
 
     public static void main(String[] args) {
-//TODO
+
         List<String> animals = new ArrayList<>();
 
         animals.add(0, "Lion");
@@ -21,10 +21,6 @@ public class ZooRemove {
         animals.add(7, "Ant");
 
         System.out.println( "Исходный размер списка = " + animals.size());
-
-//        Zoo.animalList().remove(3);
-//        Zoo.animalList().remove(5);
-//        Zoo.animalList().remove(7);
 
         animals.remove("Snake");
         animals.remove("Mouse");

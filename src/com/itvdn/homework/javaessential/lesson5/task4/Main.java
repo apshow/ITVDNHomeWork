@@ -12,9 +12,15 @@ public class Main {
         num.add(1);
         num.add(5);
         num.add(7);
-//TODO
-        //ListIterator listIterator
 
+        System.out.println("Исходный список - " + num);
+        ListIterator<Integer> li = num.listIterator();
+
+        while (li.hasNext()){
+            li.set(li.next() + 1);
+        }
+
+        System.out.println("Измененный список - " + num);
     }
 
 }

@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Zoo {
 
-
     public static ArrayList animalList(){
 
         List<String> animals = new ArrayList<>();
@@ -21,10 +20,6 @@ public class Zoo {
 
         return (ArrayList) animals;
     }
-
-
-
-
 }
 
 //        Задание 2
